@@ -10,5 +10,12 @@ public class ForEachLoop {
             System.out.println(each);//No index num and iteration fixed.
         }
 
+        System.out.println("------------------");
+
+        String[] names = {"Java","Python","Ruby"};
+
+        for (String name : names) {
+            System.out.println(name);
+        }
     }
 }
